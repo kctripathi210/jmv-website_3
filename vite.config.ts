@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/JMV_LPS_LTD/',
+  base: '/jmv-website_3/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
